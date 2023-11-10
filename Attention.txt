@@ -1,1 +1,1 @@
-Khi code có thể thay đổi tên hàm theo tùy thích, miễn là ra kết quả. Khi code thêm tính năng thì chỉ thêm duy nhất vào file main.cpp và không tạo thêm file nào khác.
+Khi code có thể thay đổi tên hàm theo tùy thích, miễn là ra kết quả. Có thể thêm hàm bất kỳ theo nhu cầu. Khi code thêm tính năng thì chỉ thêm duy nhất vào file main.cpp và không tạo thêm file nào khác.
