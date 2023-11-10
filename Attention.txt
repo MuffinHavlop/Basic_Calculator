@@ -1,0 +1,1 @@
+Khi code có thể thay đổi tên hàm theo tùy thích, miễn là ra kết quả. 
