@@ -17,7 +17,7 @@ int main()
     string Option;
     while (true)
     {
-        cout << "Hay chon cac lua chon sau(q de thoat): \n" << "1.Giai phuong trinh\n" << "2.Pythagoras" << "3.Fibonacci" ; cin >> Option;
+        cout << "\n Hay chon cac lua chon sau(q de thoat): \n"<< "1.Giai phuong trinh\n" << "2.Pythagoras\n" << "3.Fibonacci\n" << "Choice: " ; cin >> Option;
         if (Option == "1")
         {
             GiaiPhuongTrinh();
@@ -103,7 +103,11 @@ void HaiNghiemPhanBiet(float a, float b, float Delta)
 
 void Pythagoras()
 {
-
+    float x1,x2,ch ;
+    cout << "Nhap canh goc vuong 1:"; cin >> x1;
+    cout << "Nhap canh goc vuong 2:"; cin >> x2;
+    ch = sqrt(pow(x1,2)+pow(x2,2));
+    cout << "Canh huyen cua tam giac la:" << ch << "\n" ; 
 }
 
 
