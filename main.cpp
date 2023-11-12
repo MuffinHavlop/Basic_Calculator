@@ -102,12 +102,36 @@ void HaiNghiemPhanBiet(float a, float b, float Delta)
 
 
 void Pythagoras()
-{
-    float x1,x2,ch ;
-    cout << "Nhap canh goc vuong 1:"; cin >> x1;
-    cout << "Nhap canh goc vuong 2:"; cin >> x2;
-    ch = sqrt(pow(x1,2)+pow(x2,2));
-    cout << "Canh huyen cua tam giac la:" << ch << "\n" ; 
+{   
+    int option;
+    float x1,x2,ch; 
+    while (true)
+    {
+        cout << "\n Chon cac option sau: \n";
+        cout << "1.Tinh cgv \n" << "2.Tinh ch\n" ; cin >> option;
+        if (option == 2) 
+        {
+            cout << "Nhap canh goc vuong 1:"; cin >> x1;
+            cout << "Nhap canh goc vuong 2:"; cin >> x2;
+            ch = sqrt(pow(x1,2)+pow(x2,2));
+            cout << "Canh huyen cua tam giac la:" << ch << "\n" ; 
+            break;
+        }
+        else if (option == 1) 
+        {
+            cout << "Nhap canh huyen:"; cin >> x1;
+            cout << "Nhap canh goc vuong :"; cin >> x2;
+            ch = sqrt(pow(x1,2)-pow(x2,2));
+            cout << "Canh goc vuong can tim cua tam giac la:" << ch << "\n" ; 
+            break;
+        }
+        else 
+        {
+            cout << "Nhap 1 hoac 2 \n";
+            continue;
+        }
+    }
+    
 }
 
 
